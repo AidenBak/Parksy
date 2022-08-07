@@ -115,6 +115,10 @@ body {
         font-size: 5vw;
     }
 
+    .navbar_logo:hover {
+        font-size: 8vw;
+    }
+
     .navbar_menu {
         display: none;
         flex-direction: column;

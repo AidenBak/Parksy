@@ -1,8 +1,6 @@
 body {
     margin: 0;
     font-family: roboto,arial;
-    overflow-x: hidden;
-    overflow-y: hidden;
     padding: 0;
 }
 
@@ -28,8 +26,8 @@ body {
     color: #F4A896;
     background-color: #348597;
     border-radius: 1vw;
-    padding: 0 10px;
-    font-size: 3vw;
+    padding: 0 5px;
+    font-size: 2.8vw;
 }
 
 .navbar {
@@ -56,21 +54,20 @@ body {
     color: #348597;
     display: flex;
     list-style: none;
-    font-size: 2.5vw;
-    padding: 2vw;
+    font-size: 2.3vw;
+    padding: 0.1vw;
     margin: 0;
-    margin-right: 1vw;
-}
-
-.navbar_menu {
+    
     color: #348597;
     transition: color 1s;
 }
 
+
+
 .navbar_menu li {
     padding: 8px 12px;
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
 }
 
 .navbar_icons {
@@ -78,18 +75,17 @@ body {
     list-style: none;
     color: #F4A896;
     display: flex;
-    padding: 0;
-    margin-right: 40px;    
+    padding: 0;     
 }
 
-.navbar_icons {
+
+
+.navbar_icons li{
     color: #348597;
     transition: color 1s;
+    padding: 8px 12px;
 }
 
-.navbar_icons li {
-    padding-right: 20px;
-}
 
 .navbar_togglebtn {
     position: absolute;
@@ -98,7 +94,7 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 760px) {
 
     .navbar {
         flex-direction: column;

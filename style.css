@@ -118,6 +118,7 @@ body {
         padding: 0;
     }
     .navbar_menu li {
+        font-size: 6vw;
         width: 100%;
         text-align: center;
     }
@@ -128,6 +129,7 @@ body {
         width: 100%;
         margin: 0;
         padding: 12px 0;
+        font-size: 6vw;
     }
     .navbar_icons a:hover {
         color: #266343;

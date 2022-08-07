@@ -162,9 +162,7 @@ body {
     position: absolute;
 }
 
-.main {
-   -webkit-animation: fadein 2s;
-}
+
 
 @keyframes fadein {
     from {
